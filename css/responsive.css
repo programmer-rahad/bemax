@@ -1,0 +1,197 @@
+
+@media only screen and (min-width: 1230px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+@media only screen and (max-width: 1229px) {    
+    .container {
+        width: 970px;
+    }
+    .feature-content {
+        position: absolute;
+        top: calc(100% - 57px);
+        width: calc(100% - 20px);
+        height: calc(100% - 20px);
+        padding: 10px;
+    }
+
+    .feature-content:hover {
+        padding: 10px;
+        height: calc(100% - 20px);
+    }
+
+    .feature-content h4 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .feature-content p {
+        margin: 10px 0;
+    }
+
+    .blog-meta a.read-more {
+        float: left;
+        margin-top: 10px;
+    }
+
+    .single-widget input[type="email"] {
+        width: 100%;
+    }
+
+    .single-widget input[type="submit"] {
+        display: block;
+        margin: 10px 0 0;
+        float: left;
+    }
+}
+ @media only screen and (max-width: 1029px) {
+    .container {
+        width: 750px;
+    }
+    header.heading-padding nav > ul > li:hover > ul {
+        margin-top: 14px;
+    }
+    header {
+        padding: 20px 0;
+    }
+    header .logo {
+        margin-top: 0px;
+        float: none;
+        text-align: center;
+    }
+    header nav {
+        float: none!important;
+    }
+    header nav .search {
+        float: none;
+        width: 20px;
+        margin: 0 auto;
+    }
+    header nav > ul {
+        float: none;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    header nav > ul > li {
+        float: none;
+        display: inline-block;
+        text-align: left;
+    }
+    header nav .search:before {
+        display: none;
+    }
+    header nav > ul > li:hover>ul {
+        margin-top: 19px;
+    }
+    header .search-form {
+        top: calc(100% + 19px);
+    }
+    #features-section .col-lg-4 {
+        float: none;
+        width: 400px;
+        margin: 15px auto;
+    }
+    .feature-content:hover {
+        padding: 30px;
+        box-sizing: border-box; 
+        height: 100%;
+        width: 100%;
+    }    
+    #services-section .service-item {
+        margin-bottom: 15px;
+        width: 50%;
+        float: none;
+        margin: 30px auto 30px;
+    }
+} 
+@media only screen and (max-width: 830px) {
+    * {
+        box-sizing: border-box;
+    }
+    nav .search {
+        position: absolute;
+        top: 7px;
+        padding: 10px 12px;
+        cursor: pointer;
+        color: #fff;
+    }
+    header .search-form {
+        top: calc(100% + 72px);
+    }
+    .container {
+        width: calc( 100% - 30px);
+    }
+    #slider-section .single-slide {
+        padding: 100px 0;
+    }
+    #slider-section .single-slide h2 {
+        font-size: 40px;
+    }
+    #slider-section .single-slide h4 {
+        font-size: 20px;
+    }
+    #services-section .service-item {
+        width: 320px;
+    }
+    #portfolio-section .owl-nav button.owl-next {
+        right: 0;
+    }
+    #portfolio-section .owl-nav button.owl-prev {
+        left: 0!important;
+    }
+    section#working-with-us .working-wrap a,
+    #slider-section .single-slide a {
+        padding: 12px 30px;
+        font-size: 11px;
+    }
+    .call-2-action-text p, .call-2-action-text a {
+        float: none;
+        margin: 8px 0px;
+    }
+    #video-popup-section .video-demo {
+        margin-bottom: 50px;
+    }
+    #video-popup-section .video-demo, #video-popup-section .choose-us-content {
+        width: 100%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .working-wrap {
+        padding: 50px 0;
+        width: 100%;
+    }
+    .hire-us-img {
+        display: none;
+    }
+    div#blog {
+        margin-bottom: 80px;
+    }
+    div#testimonials, div#blog {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .blog-content .blog-meta {
+        text-align: left;
+    }
+    .blog-content .blog-meta .blog-tags {
+        float: none;
+    }
+    .blog-meta a.read-more {
+        float: none;
+    }
+    footer .single-widget {
+        width: 270px;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 70px;
+    }
+}
